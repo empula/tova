@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOVA</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/genai": "https://esm.sh/@google/genai@^0.14.1"
+        }
+      }
+    </script>
+</head>
+<body>
+    <div id="app-wrapper">
+        <header id="app-header">
+            <div class="app-name">TOVA<span class="sun-icon">☀️</span></div>
+            <div class="header-right-content">
+                <div id="clock-display"></div>
+                <div class="market-value-container">
+                    <div id="market-data-area" class="market-data-grid">
+                        <!-- Piyasa verileri buraya eklenecek -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="chat-app-container">
+            <div id="chat-container" aria-live="polite">
+                <!-- Mesajlar buraya eklenecek -->
+            </div>
+            <div id="input-area">
+                <input type="text" id="message-input" placeholder="Mesajınızı yazın..." aria-label="Mesaj girişi">
+                <button id="send-button" aria-label="Mesaj gönder">Gönder</button>
+            </div>
+        </main>
+    </div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>

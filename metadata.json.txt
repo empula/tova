@@ -1,0 +1,4 @@
+{
+  "name": "TOVA",
+  "description": "TOVA: Gemini API ile güçlendirilmiş, Apple tarzı şık bir tasarıma sahip, Türkçe konuşan sohbet uygulaması. BTC/USD ve ETH/USD gibi anlık piyasa değerlerini gösterir."
+}
